@@ -1,0 +1,34 @@
+<html>
+  <head>
+  
+	<script type="text/javascript" src="script.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css">
+  
+  </head>
+  
+  <body>
+  <div id="ball"></div>
+<button id="startbtn">Start</button>
+<button id="stopbtn">Stop</button>
+
+	<div> <!-- for footer -->
+      <h5><a href="http://www.eleftheriabatsou.com" target="_blank">Eleftheria Batsou</a> | <a href="http://codepen.io/EleftheriaBatsou" target="_blank">Projects</a></h5>
+    </div> <!-- end footer -->
+	
+	
+	
+	<script>
+	
+	startbtn.addEventListener("click", function(){
+	ball.style.animation = "ball-bounce 0.7s steps(6) infinite";
+	ball.style.webkitAnimation = "ball-bounce 0.7s steps(6) infinite";
+});
+
+stopbtn.addEventListener("click", function(){
+	ball.style.animation = "";
+	ball.style.webkitAnimation = "";
+});
+	</script>
+    
+    </body>
+  </html>

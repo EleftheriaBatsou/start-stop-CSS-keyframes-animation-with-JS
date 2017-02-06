@@ -1,0 +1,13 @@
+#ball{
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZcGEZcHUkliI9ckdPSqbyUqiVgZOi3yMldJhHZ7SWXJlI7TGG);
+	width: 64px;
+	height: 64px;
+}
+@keyframes ball-bounce {
+	from { background-position: 0px; }
+	to { background-position: -300px; }
+}
+@-webkit-keyframes ball-bounce {
+	from { background-position: 0px; }
+	to { background-position: -300px; }
+}
